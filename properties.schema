@@ -1,154 +1,154 @@
 {
-    "type": "object",
-    "$schema": "http://json-schema.org/draft-04/schema",
-    "id": "http://jsonschema.net",
-    "$ref": "http://localhost/plugins/content/contentobject/model.schema",
-    "globals": {
-        "ariaRegion": {
-            "type": "string",
-            "required": true,
-            "default": "Menu",
-            "inputType": "Text",
-            "validators": [],
-            "translatable": true
-        },
-        "durationLabel": {
-            "type": "string",
-            "required": true,
-            "default": "Duration:",
-            "inputType": "Text",
-            "validators": [],
-            "translatable": true
-        },
-        "menuItem": {
-            "type": "string",
-            "required": true,
-            "default": "Menu item.",
-            "inputType": "Text",
-            "validators": [],
-            "translatable": true
-        },
-        "menuEnd": {
-            "type": "string",
-            "required": true,
-            "default": "You have reached the end of the menu.",
-            "inputType": "Text",
-            "validators": [],
-            "translatable": true
-        }
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/contentobject/model.schema",
+  "globals": {
+    "ariaRegion": {
+      "type": "string",
+      "required": true,
+      "default": "Menu",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
     },
-    "properties": {
-        "pluginLocations": {
-            "type": "object",
-            "required": true,
-            "properties": {
-                "config": {
-                    "type": "object"
-                },
-                "course": {
-                    "type": "object"
-                },
-                "contentobject": {
-                    "type": "object",
-                    "properties": {
-                        "_boxMenu": {
-                            "type": "object",
-                            "required": false,
-                            "legend": "Box Menu",
-                            "properties": {
-                                "_graphic": {
-                                    "type": "object",
-                                    "required": false,
-                                    "title": "Menu Graphics",
-                                    "properties": {
-                                        "locked": {
-                                            "type": "string",
-                                            "required": false,
-                                            "default": "",
-                                            "inputType": "Asset:image",
-                                            "validators": [],
-                                            "help": "Images displayed for this locked menu item"
-                                        },
-                                        "src": {
-                                            "type": "string",
-                                            "required": false,
-                                            "default": "",
-                                            "inputType": "Asset:image",
-                                            "validators": [],
-                                            "help": "Images displayed for this menu item"
-                                        },
-                                        "alt": {
-                                            "type": "string",
-                                            "required": false,
-                                            "default": "",
-                                            "inputType": "Text",
-                                            "validators": [],
-                                            "help": "Alternative text for this image"
-                                        }
-                                    }
-                                },
-                                "_lockType": {
-                                    "type": "string",
-                                    "required": false,
-                                    "enum": ["sequential", "unlockFirst", "lockLast", "custom"],
-                                    "default": "sequential",
-                                    "title": "Menu Locking",
-                                    "inputType": {
-                                        "type": "Select",
-                                        "options": ["sequential", "unlockFirst", "lockLast", "custom"]
-                                    },
-                                    "validators": []
-                                },
-                                "linkLockedText": {
-                                    "type": "string",
-                                    "required": false,
-                                    "default": "",
-                                    "inputType": "Text",
-                                    "validators": [],
-                                    "help": "This is the instruction text"
-                                },
-                                "linkText": {
-                                    "type": "string",
-                                    "required": false,
-                                    "default": "",
-                                    "inputType": "Text",
-                                    "validators": []
-                                },
-                                "linkVisitedText": {
-                                    "type": "string",
-                                    "required": false,
-                                    "default": "",
-                                    "inputType": "Text",
-                                    "validators": []
-                                },
-                                "durationLabel": {
-                                    "type": "string",
-                                    "required": false,
-                                    "default": "",
-                                    "inputType": "Text",
-                                    "validators": []
-                                },
-                                "duration": {
-                                    "type": "string",
-                                    "required": false,
-                                    "default": "",
-                                    "inputType": "Text",
-                                    "validators": []
-                                }
-                            }
-                        }
-                    }
-                },
-                "article": {
-                    "type": "object"
-                },
-                "block": {
-                    "type": "object"
-                },
-                "component": {
-                    "type": "object"
-                }
-            }
-        }
+    "durationLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Duration:",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    },
+    "menuItem": {
+      "type": "string",
+      "required": true,
+      "default": "Menu item.",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    },
+    "menuEnd": {
+      "type": "string",
+      "required": true,
+      "default": "You have reached the end of the menu.",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
     }
+  },
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "required": true,
+      "properties": {
+        "config": {
+          "type": "object"
+        },
+        "course": {
+          "type": "object"
+        },
+        "contentobject": {
+          "type": "object",
+          "properties": {
+            "_boxMenu": {
+              "type": "object",
+              "required": false,
+              "legend": "Box Menu",
+              "properties": {
+                "_graphic": {
+                  "type": "object",
+                  "required": false,
+                  "title": "Menu Graphics",
+                  "properties": {
+                    "locked": {
+                      "type": "string",
+                      "required": false,
+                      "default": "",
+                      "inputType": "Asset:image",
+                      "validators": [],
+                      "help": "Images displayed for this locked menu item"
+                    },
+                    "src": {
+                      "type": "string",
+                      "required": false,
+                      "default": "",
+                      "inputType": "Asset:image",
+                      "validators": [],
+                      "help": "Images displayed for this menu item"
+                    },
+                    "alt": {
+                      "type": "string",
+                      "required": false,
+                      "default": "",
+                      "inputType": "Text",
+                      "validators": [],
+                      "help": "Alternative text for this image"
+                    }
+                  }
+                },
+                "_lockType": {
+                  "type": "string",
+                  "required": false,
+                  "enum": ["sequential", "unlockFirst", "lockLast", "custom"],
+                  "default": "sequential",
+                  "title": "Menu Locking",
+                  "inputType": {
+                    "type": "Select",
+                    "options": ["sequential", "unlockFirst", "lockLast", "custom"]
+                  },
+                  "validators": []
+                },
+                "linkLockedText": {
+                  "type": "string",
+                  "required": false,
+                  "default": "",
+                  "inputType": "Text",
+                  "validators": [],
+                  "help": "This is the instruction text"
+                },
+                "linkText": {
+                  "type": "string",
+                  "required": false,
+                  "default": "",
+                  "inputType": "Text",
+                  "validators": []
+                },
+                "linkVisitedText": {
+                  "type": "string",
+                  "required": false,
+                  "default": "",
+                  "inputType": "Text",
+                  "validators": []
+                },
+                "durationLabel": {
+                  "type": "string",
+                  "required": false,
+                  "default": "",
+                  "inputType": "Text",
+                  "validators": []
+                },
+                "duration": {
+                  "type": "string",
+                  "required": false,
+                  "default": "",
+                  "inputType": "Text",
+                  "validators": []
+                }
+              }
+            }
+          }
+        },
+        "article": {
+          "type": "object"
+        },
+        "block": {
+          "type": "object"
+        },
+        "component": {
+          "type": "object"
+        }
+      }
+    }
+  }
 }
