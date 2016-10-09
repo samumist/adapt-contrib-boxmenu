@@ -19,5 +19,16 @@
 			</div>
 		</div>
 	</div>
+
+  {{!-- start of custom footer style. --}}
+
+  {{#if footer}}
+  <div class="menu-footer">
+    <div class="menu-footer-inner">
+      <span class="icon {{footerIcon}}"></span>
+      <span class="menu-footer-text"> {{{footer}}} </span>
+    </div>
+  </div>
+  {{/if}}
 	<div class="aria-label relative a11y-ignore-focus prevent-default" tabindex="0" role="region">{{_globals._menu._boxmenu.menuEnd}}</div>
 </div>

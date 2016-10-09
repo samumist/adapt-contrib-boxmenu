@@ -39,7 +39,7 @@
 
 		&.nth-child-odd {
 			clear: both;
-			
+
 			.menu-item-inner {
 				margin-right:5%;
                 .dir-rtl & {
@@ -59,7 +59,7 @@
 	.menu-graphic a {
 		display: block;
 	}
-	
+
 	.menu-item-title {
 		padding:@menu-body-padding;
 	}
@@ -70,18 +70,18 @@
 
 	.menu-item-button {
 		padding:@menu-body-padding;
-		
+
 		a {
 			text-decoration: none;
 			background-color:@button-color;
 			color:@button-text-color;
 			padding:@button-padding;
-			
+
 			&:hover {
 				background-color:@button-hover-color;
 				color:@button-text-hover-color;
 			}
-			
+
 			&.visited {
 				background-color:@button-disabled-color;
 				color:@button-text-disabled-color;
@@ -117,13 +117,50 @@
 		.menu-item{
 			width:100%;
 			margin-bottom:20px;
-			
+
 			&.nth-child-even, &.nth-child-odd{
-				
+
 				.menu-item-inner{
 					margin:0;
 				}
 			}
 		}
    	}
+}
+
+
+// Menu footer
+.menu-footer {
+    .menu-footer-inner {
+        display:block;
+        max-width: @device-width-large;
+        margin: 0 auto;
+        text-align:center;
+        padding: 20px 10px;
+        @media all and (max-width: @device-width-small) {
+            padding: 10px;
+        }
+    }
+    .menu-footer-text,
+    .icon {
+      line-height: 24px;
+      vertical-align: middle;
+    }
+    .menu-footer-text {
+      color: @white;
+      font-size: 14px;
+    }
+    a {
+        color: @primary-color;
+        text-decoration: none;
+        &:hover {
+            color:@primary-color;
+        }
+    }
+    .icon {
+        display: inline-block;
+        color: @secondary-color;
+        font-size: 18px;
+        margin-right:2px;
+    }
 }
