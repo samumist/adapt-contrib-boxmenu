@@ -15,5 +15,7 @@
     "linkLockedText": "Locked",
     "linkVisitedText": "Revisit",
     "durationLabel": "Duration: ",
-    "duration": "2 mins"
+    "duration": "2 mins",
+    "footer": "Open course sponsored by ELF.",
+    "footerIcon": "icon-heart"
 }
