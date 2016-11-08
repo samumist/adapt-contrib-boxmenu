@@ -51,7 +51,7 @@
         "contentobject": {
           "type": "object",
           "properties": {
-            "_boxMenu": {
+            "_elfBoxMenu": {
               "type": "object",
               "required": false,
               "legend": "Box Menu",
