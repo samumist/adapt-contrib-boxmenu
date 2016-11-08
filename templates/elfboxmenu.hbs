@@ -22,11 +22,11 @@
 
   {{!-- start of custom footer style. --}}
 
-  {{#if footer}}
+  {{#if _globals._menu._elfBoxMenu.footer}}
   <div class="menu-footer">
     <div class="menu-footer-inner">
-      <span class="icon {{footerIcon}}"></span>
-      <span class="menu-footer-text"> {{{footer}}} </span>
+      <span class="icon {{_globals._menu._elfBoxMenu.footerIcon}}"></span>
+      <span class="menu-footer-text"> {{{_globals._menu._elfBoxMenu.footer}}} </span>
     </div>
   </div>
   {{/if}}

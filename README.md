@@ -52,7 +52,12 @@ values for **alt**, "locked" and **src**.
 <div float align=right><a href="#top">Back to Top</a></div>  
 
 ### Accessibility
-Several menu-related elements are assigned a label using the [aria-label](https://github.com/adaptlearning/adapt_framework/wiki/Aria-Labels) attribute: **ariaRegion**, **menuItem**, and **menuEnd**. These labels are not visible elements. They are utilized by assistive technology such as screen readers. Should the label texts need to be customised, they can be found within the **globals** object in [*properties.schema*](https://github.com/adaptlearning/adapt-contrib-boxmenu/blob/master/properties.schema).   
+Several menu-related elements are assigned a label using the
+[aria-label](https://github.com/adaptlearning/adapt_framework/wiki/Aria-Labels)
+attribute: **ariaRegion**, **menuItem**, and **menuEnd**. These labels are not
+visible elements. They are utilized by assistive technology such as screen
+readers. Should the label texts need to be customised, they can be found within
+the **globals** object in [*properties.schema*](https://github.com/samumist/adapt-contrib-boxmenu/blob/master/properties.schema).   
 <div float align=right><a href="#top">Back to Top</a></div>
 
 ## Limitations
