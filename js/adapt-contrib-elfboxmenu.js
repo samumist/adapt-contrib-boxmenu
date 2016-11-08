@@ -17,7 +17,7 @@ define([
         }
 
     }, {
-        template: 'boxmenu'
+        template: 'elfboxmenu'
     });
 
     var BoxMenuItemView = MenuView.extend({
@@ -63,7 +63,7 @@ define([
         }
 
     }, {
-        template: 'boxmenu-item'
+        template: 'elfboxmenu-item'
     });
 
     Adapt.on('router:menu', function(model) {

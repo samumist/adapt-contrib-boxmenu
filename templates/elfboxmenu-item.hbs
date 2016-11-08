@@ -1,4 +1,4 @@
-<div class="menu-item-inner {{#if _locked}}locked{{/if}}" aria-label="{{_globals._menu._boxmenu.menuItem}}" {{#if _globals._menu._boxmenu.menuItem}}tabindex="0"{{/if}}>
+<div class="menu-item-inner {{#if _locked}}locked{{/if}}" aria-label="{{_globals._menu._elfBoxMenu.menuItem}}" {{#if _globals._menu._elfBoxMenu.menuItem}}tabindex="0"{{/if}}>
     <div class="menu-item-graphic">
         {{#if _graphic.src}}
             {{#if _isLocked}}
@@ -29,7 +29,7 @@
             {{/if}}
         </button>
         {{#if duration}}
-            <span class="menu-item-duration accessible-text-block" role="region" tabindex="0">{{#if _globals._menu._boxmenu.durationLabel}}{{{_globals._menu._boxmenu.durationLabel}}}{{/if}} {{{duration}}}</span>
+            <span class="menu-item-duration accessible-text-block" role="region" tabindex="0">{{#if _globals._menu._elfBoxMenu.durationLabel}}{{{_globals._menu._elfBoxMenu.durationLabel}}}{{/if}} {{{duration}}}</span>
         {{/if}}
     </div>
 </div>

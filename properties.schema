@@ -83,7 +83,8 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Alternative text for this image"
+                      "help": "Alternative text for this image",
+                      "translatable": true
                     }
                   }
                 },
@@ -105,35 +106,42 @@
                   "default": "",
                   "inputType": "Text",
                   "validators": [],
-                  "help": "This is the instruction text"
+                  "help": "This is the button label text for locked item",
+                  "translatable": true
                 },
                 "linkText": {
                   "type": "string",
                   "required": false,
                   "default": "",
                   "inputType": "Text",
-                  "validators": []
+                  "validators": [],
+                  "help": "This is the button text for the menu item",
+                  "translatable": true
                 },
                 "linkVisitedText": {
                   "type": "string",
                   "required": false,
                   "default": "",
                   "inputType": "Text",
-                  "validators": []
+                  "validators": [],
+                  "help": "This is the button label text for visited item",
+                  "translatable": true
                 },
                 "durationLabel": {
                   "type": "string",
                   "required": false,
                   "default": "",
                   "inputType": "Text",
-                  "validators": []
+                  "validators": [],
+                  "translatable": true
                 },
                 "duration": {
                   "type": "string",
                   "required": false,
                   "default": "",
                   "inputType": "Text",
-                  "validators": []
+                  "validators": [],
+                  "translatable": true
                 }
               }
             }
