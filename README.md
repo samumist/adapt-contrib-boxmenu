@@ -40,12 +40,9 @@ values for **alt**, "locked" and **src**.
        
 **linkText** (string): This text is displayed on the menu item's link/button.  
 
-
 **linkLockedText** (string): This text is displayed on the locked menu item's link/button.  
 
 **linkVisitedText** (string): This text is displayed on the visited menu item's link/button.  
-
-**durationLabel** (string): Optional text which precedes **duration** (e.g., `"Duration:"`).  
 
 **duration** (string): Optional text which follows **durationLabel** (e.g., `"2 mins"`).  
        
