@@ -1,6 +1,6 @@
-# adapt-contrib-elfboxmenu
+# adapt-elfboxmenu
 
-This menu is a modification of the
+This is a modification of the
 [adapt-contrib-boxmenu](http://github.com/adaptlearning/adapt-contrib-boxmenu),
 for installation and other infomation, please visit the original repo's
 [wiki](http://github.com/adaptlearning/adapt-contrib-boxmenu/wiki).
@@ -9,7 +9,7 @@ for installation and other infomation, please visit the original repo's
 
 The attributes listed below are used in *contentObjects.json* to configure **the
 elfboxmenu**, and are properly formatted as JSON in
-[*example.json*](https://github.com/samumist/adapt-contrib-elfboxmenu/blob/master/example.json).
+[*example.json*](https://github.com/samumist/adapt-elfboxmenu/blob/master/example.json).
 
 ### Attributes
 
@@ -19,7 +19,8 @@ elfboxmenu**, and are properly formatted as JSON in
 
 **_type** (string): This value determines what the learner will access by clicking the provided link/button. Acceptable values are `"page"` and `"menu"`. `"page"` will direct the learner to a page structured with articles, blocks, and components. `"menu"` will direct the learner to a page with more menus. 
 
-**_classes** (string): CSS class name to be applied to menu item's `page` element (*src/core/js/views/pageView.js*). The class must be predefined in one of the Less files. Separate multiple classes with a space.
+**_classes** (string): CSS class name to be applied to menu item's `page`
+element (*src/core/js/views/pageView.js*). The class must be predefined in one of the Less files. Separate multiple classes with a space.
 
 **title** (string): This text is a reference title for the content object.
 
@@ -30,7 +31,7 @@ elfboxmenu**, and are properly formatted as JSON in
 **pageBody** (string): Optional text that appears as the body text of the page header. If this text is not provided, the **body** text will be used (if it is supplied). Reference [*adapt-contrib-vanilla/templates/page.hbs*](https://github.com/adaptlearning/adapt-contrib-vanilla/blob/master/templates/page.hbs).
 
 **_graphic** (object): The image that appears on the menu item. It contains
-values for **alt**, "locked" and **src**.
+values for **alt**, **locked** locked and **src**.
 
 >**alt** (string): This text becomes the image’s `alt` attribute.
 
@@ -54,7 +55,8 @@ Several menu-related elements are assigned a label using the
 attribute: **ariaRegion**, **menuItem**, and **menuEnd**. These labels are not
 visible elements. They are utilized by assistive technology such as screen
 readers. Should the label texts need to be customised, they can be found within
-the **globals** object in [*properties.schema*](https://github.com/samumist/adapt-contrib-boxmenu/blob/master/properties.schema).   
+the **globals** object in
+[*properties.schema*](https://github.com/samumist/adapt-elfboxmenu/blob/master/properties.schema).   
 <div float align=right><a href="#top">Back to Top</a></div>
 
 ## Limitations
