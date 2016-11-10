@@ -17,17 +17,17 @@
     "duration": "2 mins"
 }
 
-// add the following in the global section of config.json
+// The following code will be inserted in the global section of config.json when building.
 
 "_globals": {
     "_menu": {
         "_elfBoxMenu": {
-            "footer": "Open course sponsored by ELF.", // add a specified text at the bottom of the menu page.
-            "footerIcon": "icon-heart" // add an icon.
             "ariaRegion": "Menu",
             "durationLabel": "Duration:",
             "menuItem": "Menu item.",
             "menuEnd": "You have reached the end of the menu."
+            "footerText": "Open course sponsored by ELF.", // add a specified text at the bottom of the menu page.
+            "footerIcon": "icon-home" // add an icon.
         }
     }
 }
