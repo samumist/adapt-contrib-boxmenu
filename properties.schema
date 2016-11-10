@@ -35,6 +35,24 @@
       "inputType": "Text",
       "validators": [],
       "translatable": true
+    },
+    "footerText": {
+      "type": "string",
+      "required": false,
+      "default": "Open course sponsored by ELF.",
+      "inputType": "Text",
+      "validators": [],
+      "help": "Optional footer text at the end of the menu",
+      "translatable": true
+    },
+    "footerIcon": {
+      "type": "string",
+      "required": false,
+      "default": "icon-home",
+      "inputType": "Text",
+      "validators": [],
+      "help": "Optional footer icon at the end of the menu",
+      "translatable": true
     }
   },
   "properties": {
