@@ -115,6 +115,9 @@
 	.menu-item-body {
 		margin-bottom: @menu-block-body-margin-bottom;
 		padding: 10px 0 15px;
+    @media all and (max-width: @device-width-small) {
+      margin-bottom: 0;
+    }
 	}
 	.menu-item-instruction {
 		margin-bottom: @menu-block-instruction-margin-bottom;
@@ -185,7 +188,7 @@
 			padding: 0;
 		}
 		.menu-body-inner {
-			padding: 0;
+			padding: 20px;
 		}
 		.menu-item {
 			&.nth-child-even,
