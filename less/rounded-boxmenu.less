@@ -165,10 +165,17 @@
 			background-color:@button-color;
 			color:@button-text-color;
 			
-			&:hover {
-				background-color:@button-color-hover;
-				color:@button-text-color-hover;
-			}
+      &:hover {
+        bottom: 1px;
+        background-color: darken(@button-color, 10%);
+        -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+      }
+			// &:hover {
+			// 	background-color:@button-color-hover;
+			// 	color:@button-text-color-hover;
+			// }
 			
 			&.visited {
 				background-color:@button-color-disabled;
