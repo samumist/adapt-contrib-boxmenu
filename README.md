@@ -12,4 +12,4 @@ add the `menu-3-col` class in the `course.json` like this:
 Remove the `boxmenu.less` from your theme if you built your theme from the
 `adapt-contrib-vanilla` theme.
 
-Add a background color or background image to the `body` tag.
+Add a background colour or background image to the `body` tag.
