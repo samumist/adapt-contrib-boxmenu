@@ -1,13 +1,13 @@
 {
   "name": "adapt-contrib-elfboxMenu",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "framework": "^2.0.0",
-  "homepage": "https://github.com/samumist/adapt-contrib-elfboxmenu",
-  "issues": "https://github.com/samumist/adapt-contrib-elfboxmenu/issues",
+  "homepage": "https://github.com/samumist/adapt-elfboxmenu",
+  "issues": "https://github.com/samumist/adapt-elfboxmenu/issues",
   "displayName": "ElF Box menu",
   "menu": "elfboxmenu",
   "description": "An ELF menu",
-  "main": "js/adapt-contrib-elfboxmenu.js",
+  "main": "js/adapt-elfboxmenu.js",
   "keywords": [
     "adapt-plugin",
     "adapt-menu"
