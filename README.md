@@ -1,6 +1,11 @@
-# Single Colume BoxMenu
-A variant of the BoxMenu with a single colume.
+# Single Column BoxMenu
+A variant of the BoxMenu with a single column.
 
-To use, remove the `boxmenu.less` from your theme file to avoid conflict.
+**To use**
 
-Add a menu-background image or color.
+Remove the `boxmenu.less` from your theme file to avoid conflict and add a menu-background image or colour.
+
+**Note**
+Menu item graphic image dimensions should be `420x210`. The image should not
+be too tall.
+
