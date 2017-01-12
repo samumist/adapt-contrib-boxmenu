@@ -2,7 +2,7 @@
 
 This is a modification of the
 [adapt-contrib-boxmenu](http://github.com/adaptlearning/adapt-contrib-boxmenu),
-for installation and other infomation, please visit the original repo's
+for installation and other information, please visit the original repo's
 [wiki](http://github.com/adaptlearning/adapt-contrib-boxmenu/wiki).
 
 ## Settings Overview
