@@ -72,12 +72,11 @@
             "_elfBoxMenu": {
               "type": "object",
               "required": false,
-              "legend": "Box Menu",
               "properties": {
                 "_graphic": {
                   "type": "object",
                   "required": false,
-                  "title": "Menu Graphics",
+                  "title": "Page Locked Graphics",
                   "properties": {
                     "locked": {
                       "type": "string",
@@ -86,14 +85,6 @@
                       "inputType": "Asset:image",
                       "validators": [],
                       "help": "Images displayed for this locked menu item"
-                    },
-                    "src": {
-                      "type": "string",
-                      "required": false,
-                      "default": "",
-                      "inputType": "Asset:image",
-                      "validators": [],
-                      "help": "Images displayed for this menu item"
                     },
                     "alt": {
                       "type": "string",
@@ -106,18 +97,6 @@
                     }
                   }
                 },
-                "_lockType": {
-                  "type": "string",
-                  "required": false,
-                  "enum": ["sequential", "unlockFirst", "lockLast", "custom"],
-                  "default": "sequential",
-                  "title": "Menu Locking",
-                  "inputType": {
-                    "type": "Select",
-                    "options": ["sequential", "unlockFirst", "lockLast", "custom"]
-                  },
-                  "validators": []
-                },
                 "linkLockedText": {
                   "type": "string",
                   "required": false,
@@ -127,15 +106,6 @@
                   "help": "This is the button label text for locked item",
                   "translatable": true
                 },
-                "linkText": {
-                  "type": "string",
-                  "required": false,
-                  "default": "",
-                  "inputType": "Text",
-                  "validators": [],
-                  "help": "This is the button text for the menu item",
-                  "translatable": true
-                },
                 "linkVisitedText": {
                   "type": "string",
                   "required": false,
@@ -143,22 +113,6 @@
                   "inputType": "Text",
                   "validators": [],
                   "help": "This is the button label text for visited item",
-                  "translatable": true
-                },
-                "durationLabel": {
-                  "type": "string",
-                  "required": false,
-                  "default": "",
-                  "inputType": "Text",
-                  "validators": [],
-                  "translatable": true
-                },
-                "duration": {
-                  "type": "string",
-                  "required": false,
-                  "default": "",
-                  "inputType": "Text",
-                  "validators": [],
                   "translatable": true
                 }
               }
